@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    width: 100vw;
+    
+}
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(10, 120, 247);
+    
+}
+
+.hero-image {
+
+    background-image: url("student.jpg");
+   
+    /* The image used */
+   background-color: #fdebeb;
+    /* Used if the image is unavailable */
+  
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+
+}
+.logout {
+    /* border: 2px solid red; */
+    width: auto;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+}
+
+.add-topic {
+    /* border: 2px solid red; */
+    width: auto;
+    position: fixed;
+    top: 60px;
+    /* right: 0px; */
+    margin: 20px;
+}
+
+.container {
+    /* border: 2px solid red; */
+    margin-top: 60px;
+}
+
+.file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.file-btn {
+    margin: 10px auto;
+}
+

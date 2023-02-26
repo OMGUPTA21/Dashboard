@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    width: 100vw;
+   
+    
+}
+
+
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.logout {
+    /* border: 2px solid red; */
+    width: auto;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+}
+
+.add-topic {
+    /* border: 2px solid red; */
+    width: auto;
+    position: fixed;
+    top: 60px;
+    /* right: 0px; */
+    margin: 20px;
+}
+
+.container {
+    /* border: 2px solid red; */
+    margin-top: 60px;
+}
+
+.file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.file-btn {
+    margin: 10px auto;
+}
+
