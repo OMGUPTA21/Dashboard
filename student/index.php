@@ -7,7 +7,7 @@ if($_SESSION['login'] && $_SESSION['student']){
     $total_topics = mysqli_query($conn,$sql);
     
 ?>
-
+<!--student section Page-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
