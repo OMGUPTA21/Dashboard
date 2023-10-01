@@ -23,6 +23,7 @@ if($_SESSION['login'] && $_SESSION['teacher']){
     
 
 </head>
+    <!--This is the teacher section data-->
 <style>
 .hero{
 
