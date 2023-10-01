@@ -21,53 +21,7 @@ if($_SESSION['login'] && $_SESSION['student']){
     <?php
         include '../link.php';
     ?>
-    <style>
-        .container{
-            /* border: 2px solid red; */
-            width: 50%;
-        }
-        @media only screen and (max-width: 800px) {
-            .container{
-                width: 60%;
-            }
-        }
-        @media only screen and (max-width: 700px) {
-            .container{
-                width: 70%;
-            }
-        }
-        @media only screen and (max-width: 600px) {
-            .container{
-                width: 80%;
-            }
-        }
-        @media only screen and (max-width: 500px) {
-            .container{
-                width: 90%;
-            }
-        }
-        @media only screen and (max-width: 400px) {
-            .container{
-                width: 100%;
-            }
-        }
-.hero{
-
-background-image: url("student.jpg");
-
-/* The image used */
-background-color: #fdebeb;
-/* Used if the image is unavailable */
-
-/* You must set a specified height */
-background-position: center;
-/* Center the image */
-background-repeat: no-repeat;
-/* Do not repeat the image */
-background-size: cover;
-/* Resize the background image to cover the entire container */
-        }
-    </style>
+ 
 
 </head>
 <body class="hero">
