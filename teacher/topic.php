@@ -21,7 +21,7 @@ if($_SESSION['login'] && $_SESSION['teacher']){
 </head>
 <body>
     <div class="add-topic">
-        <button class="btn btn-success" onclick="add_topic();">Add Topic</button>
+        <button class="btn btn-success" onclick="add_topic();">Add a New Topic</button>
     </div>
     <div class="heading">
         <p class="h1 text-warning text-center"><i style="color:blue;">Topics</i></p>
