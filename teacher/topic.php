@@ -4,7 +4,7 @@ if(!isset($_SESSION))
     session_start(); 
 } 
 ob_start();
-require '../connection.php';
+require '../connection.php';//connection file...
 if($_SESSION['login'] && $_SESSION['teacher']){
 ?>
 
