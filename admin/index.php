@@ -11,6 +11,7 @@ if($_SESSION['login'] && $_SESSION['admin']){
     $total_topics = mysqli_query($conn,$sql);
     
 ?>
+    //please clear response...
 
 <!DOCTYPE html>
 <html lang="en">
